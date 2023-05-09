@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fitness Tracker</title>
+  <link rel="stylesheet" href="../CSS/styles.css"> <!-- Assuming you have a CSS file named styles.css in the public/css directory -->
+</head>
+<body>
+  <h1>Fitness Tracker</h1>
+  <form method="POST" action="/fitness">
+    <label for="date">Date:</label>
+    <input type="date" id="date" name="date" required>
+
+    <label for="workout">Workout:</label>
+    <input type="string" id="workout" name="workout" required>
+
+    <label for="duration">Duration:</label>
+    <input type="number" id="duration" name="duration" required>
+
+    <button type="submit">Add Fitness Data</button>
+  </form>
+
+  <h2>Previous Fitness Data</h2>
+  <table>
+    <tr>
+      <th>Date</th>
+      <th>Workout</th>
+      <th>Duration</th>
+    </tr>
+    {{#each data}}
+    <tr>
+      <td>{{this.date}}</td>
+      <td>{{this.workout}}</td>
+      <td>{{this.duration}}</td>
+    </tr>
+    {{/each}}
+  </table>
+</body>
+</html>
