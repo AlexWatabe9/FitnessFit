@@ -10,7 +10,7 @@ Provide a short description explaining the what, why, and how of your project. U
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running. We created wireframes to help plan out the initial app and what it is used for, then we had to write the code from scratch, building HTML and elements to get them to apply properly, then we had to build the CSS and make sure the styling elements were working hand in hand to the HTML. Then we had to write the java code making sure the internal components worked well together with the other pieces of information. We also had to create a working presentation. Then we had to write the readme file and fill it out.
+What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running. We created wireframes to help plan out the initial app and what it is used for, then we had to write the code from scratch, building HTML and elements to get them to apply properly, then we had to build the CSS and make sure the styling elements were working hand in hand to the HTML. Then we had to write the java code making sure the internal components worked well together with the other pieces of information. We had to use mysql and deploy to heroku. We also had to create a working presentation. Then we had to write the readme file and fill it out.
 
 ## Usage
 
@@ -21,6 +21,7 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
     ```md
     ![The intial Code and index.html of website]("C:\Users\bakhd\Desktop\bootcamp\FitnessFit\Images\Index.jpg")
     ![Aboutus page]("C:\Users\bakhd\Desktop\bootcamp\FitnessFit\Images\Aboutus.jpg")
+    ![Diary page]("C:\Users\bakhd\Desktop\bootcamp\FitnessFit\Images\Diary.jpg")
 
 
 ## Credits
